@@ -24,24 +24,25 @@
         h1 {
             position: absolute;
             color: white;
-            top: 50%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         h2 {
             margin-left: 28%;
             margin-right: 20%;
+            text-align: center;
         }
         p {
             margin-left: 30px;
             margin-right: 30px;
             text-align: center;           
         }
-        .wrapper{
+        .wrapper {
             width: 100%;
             table-layout: fixed;
         }
-        .mainTable{
+        .mainTable {
             background-color: #ffffff;    
             margin: 0 auto;
             width: 100%;
@@ -53,7 +54,31 @@
             position: relative;
             text-align: center;
         }
-
+        .button1 {
+            margin-left: 40%;
+            margin-right: 30%;
+            margin-bottom: 43px;
+            display: inline-block;
+            color: blue;
+            background-color: white;
+            border: none;
+            text-align: center;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 4px;
+        }
+        .button2 {
+            margin-left: 43%;
+            margin-bottom: 43%;
+            display: inline-block;
+            color: white;
+            background-color: blue;
+            border: none;
+            text-align: center;
+            font-weight: bold;
+            padding: 13px;
+            border-radius: 4px;
+        }
 
     </style>
 </head>
@@ -69,15 +94,16 @@
                 </tr>
                 <tr>
                     <td>
-                        <p>Spring has sprung and the freshness of the season brings festive experiences the whole family can enjoy. Royal Caribbean® is making this Easter onboard extra memorable — with sumptuous specialty dining menus, beyond-good beverage package deals, exciting onboard activities, and culturally captivating shore excursions. There’s festive fun for everyone with endless opportunities to hop down the bunny trail of Easter experiences and maxed-out memory making. </p>
+                        <p style="margin-bottom: 35px; margin-top: 35px; ">Spring has sprung and the freshness of the season brings festive experiences the whole family can enjoy. Royal Caribbean® is making this Easter onboard extra memorable — with sumptuous specialty dining menus, beyond-good beverage package deals, exciting onboard activities, and culturally captivating shore excursions. There’s festive fun for everyone with endless opportunities to hop down the bunny trail of Easter experiences and maxed-out memory making. </p>
                     </td>
                 </tr>
             </section>
             <section class="mainContent">
                 <tr>
-                    <td style="background-color:blue;">
-                        <h2 style="color: white;">Easter adventures await!</h2>
+                    <td style="background-image: radial-gradient(rgb(60, 60, 154), rgb(69, 69, 158), blue);">
+                        <h2 style="color: white;">Easter Adventures await!</h2>
                         <p style="color: white;">Our Adventure Ocean* Youth Program pulls out all the stops with Easter surprises designed to delight</p>
+                        <button class="button1">Learn More!</button>
                     </td>
                 </tr>
                 <tr>
@@ -90,7 +116,7 @@
                 <tr>
                     <td>
                         <table width="100%">
-                            <h3 style="color: blue;">A especial Easter Sunday at Sea</h3>
+                            <h3 style="margin-left: 27%; margin-right: 27%; margin-top: 45px; color: blue;">A Special Easter Sunday at Sea</h3>
                             <tr>
                                 <td class="three-columns">
                                     <table class="column">
@@ -102,6 +128,7 @@
                                                             <a href="$"><img src="./img/shutterstock_1808599063.png" alt="" width="150" style="max-width: 130px; margin-top: 50px;"></a>
                                                             <h3>Mmm-mm-mimosas & more</h3>
                                                             <p>From Good Friday feasts to Easter brunches, tehre's always room for a toast with a Deluxe Bererage Package</p>
+                                                            <button class="button2">Buy Now</button>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -117,6 +144,7 @@
                                                             <a href="$"><img src="./img/RCI_SY_Wonderland_TheChickenAndTheEgg_0059.png" alt="" width="150" style="max-width: 130px; margin-top: 50px;"></a>
                                                             <h3>Festive Family Specialty Dining</h3>
                                                             <p>Celebrate family and treat everyone to truly mouthwatering meals with an unlimited dining packages</p>
+                                                            <button class="button2">Buy Now</button>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -126,6 +154,7 @@
                                                             <a href="$"><img src="./img/RCI_cozumel_board_sports_H_00506_RET_V2_EXT_CMYK.png" alt="" width="150" style="max-width: 130px; margin-top: 50px;"></a>
                                                             <h3>Hunt for Adventure</h3>
                                                             <p>Create unforgettable vacation memories with exciting shore excursions</p>
+                                                            <button class="button2">Buy Now</button>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -135,6 +164,7 @@
                                                             <a href="$"><img src="./img/RCI_OA_GENIE_JuniorSuite_Boomers_8363_VOOM_RETOUCHED.png" alt="" width="150" style="max-width: 130px; margin-top: 50px;"></a>
                                                             <h3>Syat Connected</h3>
                                                             <p>Share memories with loved ones in real-time with VOOM* Internet packages - the faster internet at sea</p>
+                                                            <button class="button2">Buy Now</button>
                                                         </td>
                                                     </tr>
                                                 </table>
@@ -147,6 +177,11 @@
                     </td>
                 </tr>
             </div>
+            <section class="foter">
+                <footer>
+                    
+                </footer>
+            </section>
         </table>
     </main>
 </body>
